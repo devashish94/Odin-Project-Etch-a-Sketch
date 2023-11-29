@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+  font-family: sans-serif;
+}
+
+body>div {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.tools {
+  padding: 30px;
+  border-radius: 8px;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+#grid-container {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+}
+
+#grid-container>div {
+  display: flex;
+}
+
+#grid-container>div>div {
+  border: 1px solid black;
+}
+
+#grid-container>div>div:hover {
+  background-color: black;
+}
